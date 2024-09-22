@@ -10881,6 +10881,17 @@ p.lead {
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
 }
+#sideNav .profile{
+  padding-left: 2.5rem;
+}
+#sideNav .navbar-brand .img-profile {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  max-width: 2.5rem;
+  max-height: 2.5rem;
+  border: 0.2rem solid rgba(255, 255, 255, 0.2);
+}
 
 @media (min-width: 992px) {
   #sideNav {
@@ -10900,7 +10911,13 @@ p.lead {
     margin: auto auto 0;
     padding: 0.5rem;
   }
+  #sideNav .profile{
+    padding-left: 0;
+  }
   #sideNav .navbar-brand .img-profile {
+    position: relative;
+    top: 0;
+    left: 0;
     max-width: 10rem;
     max-height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
